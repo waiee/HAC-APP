@@ -79,5 +79,5 @@ print("Car: ")
 print("Estimated Price: RM", '%.2f' %  carPrice)
 print("Downpayment(20%): RM",'%.2f' %  downPayment)
 print("Loan duration(7 years):", loanPeriod, "months")
-print("Monthly limit: RM", '%.2f' % monthlyLimit)
+print("Monthly: RM", '%.2f' % monthlyLimit)
 
