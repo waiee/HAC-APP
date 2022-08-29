@@ -1,8 +1,9 @@
 import streamlit as st
 from PIL import Image
 
-st.title("House & Car Price Calculator (RM)")
+st.title("House & Car Price Calculator")
 
+salary = st.number_input("Enter your salary (RM)")
 
 #Hide streamlit trademark
 hide_st_style = """
