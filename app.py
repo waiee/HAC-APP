@@ -5,6 +5,18 @@ st.title("House & Car Price Calculator")
 
 salary = st.number_input("Enter your salary (RM)")
 
+dsr = 1
+if salary < 3000:
+    dsr = dsr*salary*0.60
+elif salary > 5000:
+    dsr = dsr*salary*0.75
+else:
+    dsr = dsr*salary*0.70
+
+st.success(f" Salary: RM{salary}")
+st.success(f"Your DSR is {dsr}")
+
+
 #Hide streamlit trademark
 hide_st_style = """
             <style>
