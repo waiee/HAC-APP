@@ -13,8 +13,8 @@ elif salary > 5000:
 else:
     dsr = dsr*salary*0.70
 
-st.success(f" Salary: RM{salary}")
-st.success(f"Your DSR is {dsr}")
+st.success(f"Salary: RM {salary}")
+st.success(f"DSR: RM {dsr}")
 
 
 #Hide streamlit trademark
