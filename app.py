@@ -14,7 +14,7 @@ else:
     dsr = dsr*salary*0.70
 
 st.success(f"Salary: RM {salary}")
-st.success(f"DSR: RM {dsr}")
+st.success(f"DSR (Debt Service Ratio): RM {dsr}")
 
 #find commitment
 
