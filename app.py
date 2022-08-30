@@ -17,7 +17,8 @@ st.success(f"""Salary: RM {salary}
             \nDSR (Debt Service Ratio): RM {dsr}""")
 
 #find commitment
-
+bankCom = st.number_input("Enter your bank commitment (Car, personal loan etc.)")
+totalLoan = dsr - bankCom
 
 #Hide streamlit trademark
 hide_st_style = """
