@@ -2,9 +2,9 @@ import streamlit as st
 from PIL import Image
 
 st.title("House & Car Price Calculator")
-
 salary = st.number_input("Enter your salary (RM)")
 
+#find dsr
 dsr = 1
 if salary < 3000:
     dsr = dsr*salary*0.60
@@ -15,6 +15,8 @@ else:
 
 st.success(f"Salary: RM {salary}")
 st.success(f"DSR: RM {dsr}")
+
+#find commitment
 
 
 #Hide streamlit trademark
