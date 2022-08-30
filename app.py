@@ -22,6 +22,9 @@ bankCom = st.number_input("Enter your bank commitment (Car, personal loan etc.)"
 #total monthly loan
 totalLoan = dsr - bankCom
 
+#4. Estimate House Price
+housePrice = totalLoan*200
+
 #Hide streamlit trademark
 hide_st_style = """
             <style>
