@@ -28,9 +28,10 @@ housePrice = totalLoan*200
 #5. Loan limit (should be < 35% of salary)
 loanLimit = salary*0.35
 
-st.success(f"""Salary: RM {salary} 
-            \nDSR (Debt Service Ratio): RM {dsr}""")
-
+st.success(f"""Your Salary: RM {salary} 
+            \nYour Bank Commitment: RM {bankCom}
+            \nDSR (Debt Service Ratio): RM {dsr}
+            \n""")
 
 
 
