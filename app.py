@@ -18,6 +18,7 @@ st.success(f"""Salary: RM {salary}
 
 #find commitment
 bankCom = st.number_input("Enter your bank commitment (Car, personal loan etc.)")
+
 #total monthly loan
 totalLoan = dsr - bankCom
 
