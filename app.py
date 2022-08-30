@@ -31,7 +31,7 @@ loanLimit = salary*0.35
 st.success(f"""Your Salary: RM {salary} 
             \nYour Bank Commitment: RM {bankCom}""")
 
-st.header("House")
+st.subheader("House")
 st.success(f"""Estimated Price: RM {housePrice}
             \nDSR (Debt Service Ratio): RM {dsr}
             \nMonthly Limit: RM {loanLimit}""")
