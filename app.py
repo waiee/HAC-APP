@@ -25,6 +25,16 @@ totalLoan = dsr - bankCom
 #4. Estimate House Price
 housePrice = totalLoan*200
 
+#5. Loan limit (should be < 35% of salary)
+loanLimit = salary*0.35
+
+st.success(f"""Salary: RM {salary} 
+            \nDSR (Debt Service Ratio): RM {dsr}""")
+
+
+
+
+
 #Hide streamlit trademark
 hide_st_style = """
             <style>
