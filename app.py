@@ -29,12 +29,9 @@ housePrice = totalLoan*200
 loanLimit = salary*0.35
 
 st.success(f"""Your Salary: RM {salary} 
-            \nYour Bank Commitment: RM {bankCom}
-            \n _________________________________
-            \nHouse:
-            \nEstimated Price: RM {housePrice}
-            \nDSR (Debt Servie Ratio): RM {dsr}""")
+            \nYour Bank Commitment: RM {bankCom}""")
 
+st.header("House")
 st.success(f"""Estimated Price: RM {housePrice}
             \nDSR (Debt Servie Ratio): RM {dsr}""")
 
