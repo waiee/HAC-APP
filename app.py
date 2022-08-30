@@ -13,8 +13,8 @@ elif salary > 5000:
 else:
     dsr = dsr*salary*0.70
 
-st.success(f"""Salary: RM {salary} 
-            \nDSR (Debt Service Ratio): RM {dsr}""")
+# st.success(f"""Salary: RM {salary} 
+#             \nDSR (Debt Service Ratio): RM {dsr}""")
 
 #find commitment
 bankCom = st.number_input("Enter your bank commitment (Car, personal loan etc.)")
