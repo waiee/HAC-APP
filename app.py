@@ -33,7 +33,7 @@ st.success(f"""Your Salary: RM {salary}
 
 st.header("House")
 st.success(f"""Estimated Price: RM {housePrice}
-            \nDSR (Debt Servie Ratio): RM {dsr}""")
+            \nDSR (Debt Service Ratio): RM {dsr}""")
 
 
 
