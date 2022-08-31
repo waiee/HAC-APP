@@ -36,7 +36,19 @@ st.success(f"""Estimated Price: RM {housePrice}
             \nDSR (Debt Service Ratio): RM {dsr}
             \nMonthly Limit: RM {loanLimit}""")
 
+##### CAR #####
 
+#1. Estimate car price
+carPrice = salary*12
+
+#2. Count downpayment
+downPayment = carPrice*0.20
+
+#3. Count loan period for 7 years in months
+loanPeriod = 12*7
+
+#4. Count monthly limit 
+monthlyLimit = salary*0.15
 
 
 #Hide streamlit trademark
