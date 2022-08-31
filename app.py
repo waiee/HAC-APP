@@ -50,6 +50,12 @@ loanPeriod = 12*7
 #4. Count monthly limit 
 monthlyLimit = salary*0.15
 
+st.subheader("Car")
+st.success(f"""Estimated Price: RM {housePrice}
+            \nDSR (Debt Service Ratio): RM {dsr}
+            \nMonthly Limit: RM {loanLimit}""")
+
+
 
 #Hide streamlit trademark
 hide_st_style = """
