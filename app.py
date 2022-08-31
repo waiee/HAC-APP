@@ -2,6 +2,7 @@ import streamlit as st
 from PIL import Image
 
 st.title("House & Car Price Calculator")
+st.text("Created by Waiee Zainol")
 salary = st.number_input("Enter your salary (RM)")
 
 ##### HOUSE #####
@@ -51,10 +52,10 @@ loanPeriod = 12*7
 monthlyLimit = salary*0.15
 
 st.subheader("Car")
-st.success(f"""Estimated Price: RM {housePrice}
-            \nDownpayment (20%): RM {dsr}
+st.success(f"""Estimated Price: RM {carPrice}
+            \nDownpayment (20%): RM {downPayment}
             \nLoan Duration: 7 years or {loanPeriod} months
-            \nMonthly Limit: RM {loanLimit}""")
+            \nMonthly Limit: RM {monthlyLimit}""")
 
 #Hide streamlit trademark
 hide_st_style = """
