@@ -52,16 +52,9 @@ monthlyLimit = salary*0.15
 
 st.subheader("Car")
 st.success(f"""Estimated Price: RM {housePrice}
-            \nDSR (Debt Service Ratio): RM {dsr}
+            \nDownpayment(20%): RM {dsr}
+            \nLoan Duration (7 years): {loanPeriod} months
             \nMonthly Limit: RM {loanLimit}""")
-
-status = st.radio("What is your status",("Active", "Inactive"))
-
-if status == 'Active':
-    st.success("You are Active!")
-else:
-    st.warning("You are inactive.")
-
 
 #Hide streamlit trademark
 hide_st_style = """
