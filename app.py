@@ -52,7 +52,7 @@ monthlyLimit = salary*0.15
 
 st.subheader("Car")
 st.success(f"""Estimated Price: RM {housePrice}
-            \nDownpayment(20%): RM {dsr}
+            \nDownpayment (20%): RM {dsr}
             \nLoan Duration: 7 years or {loanPeriod} months
             \nMonthly Limit: RM {loanLimit}""")
 
