@@ -4,6 +4,7 @@ from PIL import Image
 st.title("House & Car Price Calculator")
 salary = st.number_input("Enter your salary (RM)")
 
+##### HOUSE #####
 #find dsr
 dsr = 1
 if salary < 3000:
@@ -37,7 +38,6 @@ st.success(f"""Estimated Price: RM {housePrice}
             \nMonthly Limit: RM {loanLimit}""")
 
 ##### CAR #####
-
 #1. Estimate car price
 carPrice = salary*12
 
