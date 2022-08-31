@@ -3,6 +3,7 @@ from PIL import Image
 
 st.title("House & Car Price Calculator")
 st.text("Created by Waiee Zainol")
+st.write("____")
 salary = st.number_input("Enter your salary (RM)")
 
 ##### HOUSE #####
@@ -29,6 +30,11 @@ housePrice = totalLoan*200
 
 #5. Loan limit (should be < 35% of salary)
 loanLimit = salary*0.35
+
+#Spinner
+with st.spinner("Waiting .."):
+    time.sleep(5)
+st.success("Finished!")
 
 st.success(f"""Your Salary: RM {salary} 
             \nYour Bank Commitment: RM {bankCom}""")
