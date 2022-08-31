@@ -55,6 +55,12 @@ st.success(f"""Estimated Price: RM {housePrice}
             \nDSR (Debt Service Ratio): RM {dsr}
             \nMonthly Limit: RM {loanLimit}""")
 
+status = st.radio("What is your status",("Active", "Inactive"))
+
+if status == 'Active':
+    st.success("You are Active!")
+else:
+    st.warning("You are inactive.")
 
 
 #Hide streamlit trademark

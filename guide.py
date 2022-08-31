@@ -32,14 +32,14 @@ st.write("Text with write")
 st.write(range(10))
 
 #Images
-from PIL import Image
-img = Image.open("IMG_4825.jpeg")
-st.image(img, width=300, caption="Inilah muka saya")
+# from PIL import Image
+# img = Image.open("IMG_4825.jpeg")
+# st.image(img, width=300, caption="Inilah muka saya")
 
-#Videos
-vid_file = open("video.mp4","rb").read()
-# vid_bytes = vid_file.read()
-st.video(vid_file)
+# #Videos
+# vid_file = open("video.mp4","rb").read()
+# # vid_bytes = vid_file.read()
+# st.video(vid_file)
 
 # Audio
 # audio_file = open("","rb").read()
