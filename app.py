@@ -13,8 +13,6 @@ st.markdown(hide_st_style, unsafe_allow_html=True)
 
 st.title("House & Car Price Calculator")
 st.text("Created by Waiee Zainol")
-st.text("Buat buat ada")
-st.text("Gerak Pangkor dulu")
 st.write("____")
 salary = st.number_input("Enter your salary (RM)")
 
