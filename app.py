@@ -12,7 +12,7 @@ hide_st_style = """
 st.markdown(hide_st_style, unsafe_allow_html=True)
 
 st.title("House & Car Price Calculator")
-st.text("Created by Waiee Zainol")   
+st.text("Created by Waiee Zainol")
 st.write("____")
 salary = st.number_input("Enter your salary (RM)")
 
@@ -51,7 +51,7 @@ if salary and bankCom:
             \nYour Bank Commitment: RM {bankCom}""")
 
     st.subheader("House")
-    st.success(f"""Estimated Price: RM {housePrice}
+    st.write(f"""Estimated Price: RM {housePrice}
             \nDSR (Debt Service Ratio): RM {dsr}
             \nMonthly Limit: RM {loanLimit}""")
 
