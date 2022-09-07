@@ -51,7 +51,7 @@ if salary and bankCom:
             \nYour Bank Commitment: RM {bankCom}""")
 
     st.subheader("House")
-    st.write(f"""Estimated Price: RM {housePrice}
+    st.success(f"""Estimated Price: RM {housePrice}
             \nDSR (Debt Service Ratio): RM {dsr}
             \nMonthly Limit: RM {loanLimit}""")
 
