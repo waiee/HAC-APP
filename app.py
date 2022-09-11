@@ -15,6 +15,7 @@ st.title("House & Car Price Calculator")
 st.text("Created by Waiee Zainol")
 st.text("Test test")
 st.text("Test test")
+st.text("Another day")
 st.write("____")
 salary = st.number_input("Enter your salary (RM)")
 
