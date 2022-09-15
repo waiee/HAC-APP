@@ -18,7 +18,7 @@ st.text("Test test")
 st.text("Another day")
 st.write("____")
 salary = st.number_input("Enter your salary (RM)")
-
+st.text("Another day day")
 ##### HOUSE #####
 #find dsr
 dsr = 1
