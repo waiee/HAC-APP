@@ -11,14 +11,10 @@ hide_st_style = """
             """
 st.markdown(hide_st_style, unsafe_allow_html=True)
 
-st.title("House & Car Price Calculator")
+st.title("HAC-APP")
 st.text("Created by Waiee Zainol")
-st.text("Test test")
-st.text("Test test")
-st.text("Another day")
 st.write("____")
 salary = st.number_input("Enter your salary (RM)")
-st.text("PLEASE I NEED HELP")
 ##### HOUSE #####
 #find dsr
 dsr = 1
