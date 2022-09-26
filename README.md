@@ -1,4 +1,4 @@
-# House and Car Price Calculator
+# HAC-APP
 
 Formula for house price by Wan Aizat - Agen Hartanah Lembah Klang.
 
