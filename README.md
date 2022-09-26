@@ -1,8 +1,5 @@
 # HAC-APP
 
-Formula for house price by Wan Aizat - Agen Hartanah Lembah Klang.
-
-
 1. Salary= Rough Salary - (EPF + Socso + tax)
 2. DSR = Clean Salary x 65% or 60% or 75%
 3. TotalLoan = DSR - (Bank Commitment)
