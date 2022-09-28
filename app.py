@@ -46,6 +46,7 @@ if salary and bankCom:
     with st.spinner("Waiting .."):
         time.sleep(3)
 
+    st.subheader("Result")
     st.write(f"""Your Salary: RM {salary} 
             \nYour Bank Commitment: RM {bankCom}""")
 
