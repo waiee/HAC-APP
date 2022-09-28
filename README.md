@@ -1,7 +1,6 @@
-# House and Car Price Calculator
+# HAC-APP
 
-Formula for house price by Wan Aizat - Agen Hartanah Lembah Klang.
-
+[Click here to reach the application.](https://waiee-hac-app-app-v2tyis.streamlitapp.com)
 
 1. Salary= Rough Salary - (EPF + Socso + tax)
 2. DSR = Clean Salary x 65% or 60% or 75%
