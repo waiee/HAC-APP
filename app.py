@@ -47,11 +47,11 @@ if salary and bankCom:
         time.sleep(3)
 
     st.subheader("Result")
-    st.write(f"""Your Salary: RM {salary} 
+    st.success(f"""Your Salary: RM {salary} 
             \nYour Bank Commitment: RM {bankCom}""")
 
     st.subheader("House")
-    st.write(f"""Estimated Price: RM {housePrice}
+    st.success(f"""Estimated Price: RM {housePrice}
             \nDSR (Debt Service Ratio): RM {dsr}
             \nMonthly Limit: RM {loanLimit}""")
 
@@ -69,7 +69,7 @@ if salary and bankCom:
     monthlyLimit = salary*0.15
 
     st.subheader("Car")
-    st.write(f"""Estimated Price: RM {carPrice}
+    st.success(f"""Estimated Price: RM {carPrice}
             \nDownpayment (20%): RM {downPayment}
             \nLoan Duration: 7 years or {loanPeriod} months
             \nMonthly Limit: RM {monthlyLimit}""")
