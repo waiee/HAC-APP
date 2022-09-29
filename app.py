@@ -51,7 +51,7 @@ if salary and bankCom:
             \nYour Bank Commitment: RM {bankCom}""")
 
     st.subheader("House")
-    st.success(f"""Estimated Price: RM {housePrice}
+    st.write(f"""Estimated Price: RM {housePrice}
             \nDSR (Debt Service Ratio): RM {dsr}
             \nMonthly Limit: RM {loanLimit}""")
 
@@ -69,7 +69,7 @@ if salary and bankCom:
     monthlyLimit = salary*0.15
 
     st.subheader("Car")
-    st.success(f"""Estimated Price: RM {carPrice}
+    st.write(f"""Estimated Price: RM {carPrice}
             \nDownpayment (20%): RM {downPayment}
             \nLoan Duration: 7 years or {loanPeriod} months
             \nMonthly Limit: RM {monthlyLimit}""")
